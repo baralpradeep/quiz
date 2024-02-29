@@ -167,7 +167,6 @@ label = "SecurityPlus"
     alternatives = ["compenseting", "correcting", "administrative"]
  
     [[SecurityPlus.questions]]
-    question     = "A security analyst is concerned about critical vulnerabilities that have been detected on some applications running inside containers. Which of the following is the
-BEST remediation strategy?"
+    question     = "A security analyst is concerned about critical vulnerabilities that have been detected on some applications running inside containers. Which of the following is theBEST remediation strategy?"
     answers      = ["Update the base container Image and redeploy the environment."]
-    alternatives = ["Include the containers in the regular patching schedule for servers.","Patch each running container individually and test the application."Update the host in which the containers are running."]
+    alternatives = ["Include the containers in the regular patching schedule for servers.", "Patch each running container individually and test the application.", "Update the host in which the containers are running."]
