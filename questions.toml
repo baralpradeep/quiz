@@ -12,9 +12,9 @@ label = "Python"
     alternatives = ["continue", "CIS", "1881"]
 
     [[python.questions]]
-    question     = "Which built-in function can get information from the user"
-    answers      = ["input"]
-    alternatives = ["get", "print", "write"]
+    question     = "Dion Training’s offices utilize an open concept floor plan. They are concerned that a visitor might attempt to steal an external hard drive and carry it out of the building. To mitigate this risk, the security department has recommended installing security cameras that are clearly visible to both employees and visitors. What type of security control do these cameras represent?r"
+    answers      = ["deterrent"]
+    alternatives = ["compenseting", "correcting", "administrative"]
 
     [[python.questions]]
     question = "What's the purpose of the built-in zip() function"
