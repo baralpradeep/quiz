@@ -195,3 +195,25 @@ label = "SecurityPlus"
     question = "An organization wants to participate in threat intelligence information sharing with peer groups. Which of the following would MOST likely meet the organization's requirement?"
     answers =["Implement a TAXII server."]
     alternatives = ["Perform OSINT investigations", "Subscribe to threat intelligence feeds.", "Submit RFCs."]
+
+    [[SecurityPlus.questions]]
+    question = "A security analyst is designing the appropriate controls to limit unauthorized access to a physical site. The analyst has a directive to utilize the lowest possible budget. Which of the following would BEST meet the requirements?"
+    answers =["Deterrent controls"]
+    alternatives = ["Preventive controls", "Compensating controls", "Detective controls"]
+
+    [[SecurityPlus.questions]]
+    question = "The Chief Information Security Officer (CISO) has requested that a third-party vendor provide supporting documents that show proper controls are in place to protect customer data. Which of the following would be BEST for the third-party vendor to provide to the CISO?"
+    answers =["SOC 2 Type 2 report"]
+    alternatives = ["GDPR compliance attestation", "Cloud Security Alliance materials", "NIST RMF workbooks"]
+
+[Kids]
+label = "Kids"
+    [[Kids.questions]]
+    question     = "What is the 4*8"
+    answers      = ["32"]
+    alternatives = ["12", "36", "81"]  
+
+    [[Kids.questions]]
+    question     = "What is the 8*8"
+    answers      = ["64"]
+    alternatives = ["62", "22", "89"]  
