@@ -206,6 +206,66 @@ label = "SecurityPlus"
     answers =["SOC 2 Type 2 report"]
     alternatives = ["GDPR compliance attestation", "Cloud Security Alliance materials", "NIST RMF workbooks"]
 
+    
+    [[SecurityPlus.questions]]
+    question = "Two organizations plan to collaborate on the evaluation of new SIEM solutions for their respective companies. A combined effort from both organizations' SOC teams would speed up the effort. Which of the following can be written to document this agreement?"
+    answers = ["MOU"]
+    alternatives = ["ISA", "SLA", "NDA"]
+
+    [[SecurityPlus.questions]]
+    question = "A security proposal was set up to track requests for remote access by creating a baseline of the users' common sign-in properties. When a baseline deviation is detected, an MFA challenge will be triggered. Which of the following should be configured in order to deploy the proposal?"
+    answers = ["Context-aware authentication"]
+    alternatives = ["Simultaneous authentication of equals", "Extensive authentication protocol", "Agentless network access control"]
+
+    [[SecurityPlus.questions]]
+    question = "In a rush to meet an end-of-year business goal, the IT department was told to implement a new business application. The security engineer reviews the attributes of the application and decides the time needed to perform due diligence is insufficient from a cybersecurity perspective. Which of the following BEST describes the security engineer's response?"
+    answers = ["Risk acceptance"]
+    alternatives = ["Risk tolerance", "Risk importance", "Risk appetite"]
+
+    [[SecurityPlus.questions]]
+    question = "Which of the following provides guidelines for the management and reduction of information security risk?"
+    answers = ["NIST CSF"]
+    alternatives =["CIS", "ISO", "PCI DSS"]
+
+    [[SecurityPlus.questions]]
+    question = "A security administrator needs a method to secure data in an environment that includes some form of checks so that the administrator can track any changes. Which of the following should the administrator set up to achieve this goal?"
+    answers = ["FIM - File Integrity Monitor"]
+    alternatives =["SPF", "GPO", "NAC"]
+
+    [[SecurityPlus.questions]]
+    question = "Which of the following can be used to calculate the total loss expected per year due to a threat targeting an asset?"
+    answers = ["SLE x ARO"]
+    alternatives =["EF x asset value", "ALE / SLE", "MTBF x impact"]
+    explanation = """
+    SLE stands for Single Loss Expectancy and is the expected monetary loss from a single incident. ARO stands for Annualized Rate of Occurrence and is the estimated number of times an incident is expected to occur in a year.
+    """
+
+    [[SecurityPlus.questions]]
+    question = "During a forensic investigation, an analyst uses software to create a checksum of the affected subject's email file. Which of the following is the analyst practicing?"
+    answers = ["Integrity"]
+    alternatives =["Chain of custody", "Data recovery", "Non-repudiation"]
+    explanation = """
+    Creating a checksum of the affected subject's email file is an action that verifies the integrity of the file. In digital forensics, the process of creating a checksum involves generating a hash value (checksum) for a file. If the file remains unchanged, the hash value should remain consistent. If any alterations occur in the file, the hash value would differ, indicating a potential integrity issue.
+    """
+
+    [[SecurityPlus.questions]]
+    question = "A security audit of an organization revealed that most of the IT staff members have domain administrator credentials and do not change the passwords regularly. Which of the following solutions should the security team propose to resolve the findings in the most complete way?"
+    answers = ["Securing domain administrator credentials in a PAM vault and controlling access with role-based access control"]
+    alternatives = ["Creating group policies to enforce password rotation on domain administrator credentials","Reviewing the domain administrator group, removing all unnecessary administrators, and rotating all passwords","Integrating the domain administrator's group with an IdP and requiring SSO with MFA for all access"]
+
+    [[SecurityPlus.questions]]
+    question = "Which of the following threat actors is most likely to use a high level of sophistication and potentially zero-day exploits to target organizations and systems?"
+    answers = ["APT groups"]
+    alternatives = ["Script kiddies", "Hacktivists", "Ethical hackers"]
+    explanation = """
+    APT (Advanced Persistent Threat) groups are most likely to use a high level of sophistication and potentially zero-day exploits to target organizations and systems. APTs are well-resourced and organized adversaries with specific objectives, often associated with nation-states or state-sponsored entities. They employ advanced techniques, including the development or use of zero-day vulnerabilities, to gain unauthorized access, maintain persistence, and exfiltrate sensitive information over an extended period.
+    """
+
+    [[SecurityPlus.questions]]
+    question = "Which of the following describes the exploitation of an interactive process to gain access to restricted areas?"
+    answers = ["Privilege escalation"]
+    alternatives = ["Persistence", "Port scanning", "Pharming"]
+
 [Kids]
 label = "Kids"
     [[Kids.questions]]
