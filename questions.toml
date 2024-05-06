@@ -266,6 +266,15 @@ label = "SecurityPlus"
     answers = ["Privilege escalation"]
     alternatives = ["Persistence", "Port scanning", "Pharming"]
 
+    [[SecurityPlus.questions]]
+    question = "A security analyst is assessing a new y developed web application by testing SQL injection, CSRF, and XML injection. Which of the follow ng frameworks should the analyst consider?"
+    answers = ["OWASP"]
+    alternatives = ["ISO", "NIST", "MITRE ATT&CK"]
+    explanation = """
+    The security analyst should consider OWASP (Open Web Application Security Project) framework. OWASP provides a comprehensive set of guidelines, tools, and techniques to help secure web applications. It also includes a top ten list of the most critical web application security risks, which includes SQL injection, CSRF, and XML injection.
+    MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations.
+    """
+
 [Kids]
 label = "Kids"
     [[Kids.questions]]
