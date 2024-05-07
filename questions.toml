@@ -182,11 +182,6 @@ label = "SecurityPlus"
     alternatives = ["DNS poisoning", "MAC Flodding", "ARP poisioning"] 
 
     [[SecurityPlus.questions]]
-    question = "a"
-    answers =["DDoS attack"]
-    alternatives = ["DNS poisoning", "MAC Flodding", "ARP poisioning"]
-
-    [[SecurityPlus.questions]]
     question = "Which of the following statements BEST describes zero-day exploits?"
     answers =["A zero-day exploit is initially undetectable, and no patch for it exists."]
     alternatives = ["Zero-day exploits have their own scoring category in CVSS.", "When a zero-day exploit is discovered, the system cannot be protected by any means.", "Zero-day exploits have their own scoring category in CVSS."]
@@ -274,15 +269,4 @@ label = "SecurityPlus"
     The security analyst should consider OWASP (Open Web Application Security Project) framework. OWASP provides a comprehensive set of guidelines, tools, and techniques to help secure web applications. It also includes a top ten list of the most critical web application security risks, which includes SQL injection, CSRF, and XML injection.
     MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations.
     """
-
-[Kids]
-label = "Kids"
-    [[Kids.questions]]
-    question     = "What is the 4*8"
-    answers      = ["32"]
-    alternatives = ["12", "36", "81"]  
-
-    [[Kids.questions]]
-    question     = "What is the 8*8"
-    answers      = ["64"]
-    alternatives = ["62", "22", "89"]  
+### https://nnovru.medium.com/1-5-explain-different-threat-actors-vectors-and-intelligence-sources-72f9b3620502
